@@ -1,8 +1,76 @@
-body,
-html,
-*{
-    font-size: 10px;
+body {
+    background-image: url(https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289f32c1971ae8118019a70_blue-gradient.png);
+    background-size: contain;
+}
+
+html *{
+    font-size: 15px;
     box-sizing: border-box;
-    margin: 0 ;
+    margin: 0;
     padding: 0; 
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.header {
+    font-size: 2.5rem;
+    color: purple;
+    background-color: burlywood;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    min-height: 10vh;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.subheader {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    margin: 5vh;
+}
+
+.gallery {
+    background-color: darkslategray;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    padding-top: 2vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-box {
+    background-color: rgb(47, 47, 104);
+    border-radius: 5vh;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    box-shadow: 5px 5px 15px green;
+}
+
+.description {
+    font-size: 1.25rem;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images {
+    width: 380px;
+    height: 260px;
+    margin: 10 auto;
+    flex-basis: 100%;
+    border-radius: 20px;
 }
