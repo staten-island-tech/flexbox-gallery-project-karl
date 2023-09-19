@@ -43,19 +43,19 @@ html *{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    flex-basis: 33%;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
 }
 
 .image-box {
     background-color: rgb(47, 47, 104);
     border-radius: 5vh;
     padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 20px;
-    margin-bottom: 2vh;
-    margin: 3vh;
+    margin: 2.5vh;
     box-shadow: 5px 5px 15px green;
 }
 
