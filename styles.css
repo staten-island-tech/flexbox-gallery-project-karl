@@ -44,7 +44,7 @@ html *{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
 }
 
 .image-box {
@@ -55,7 +55,7 @@ html *{
     padding-right: 20px;
     padding-top: 20px;
     margin-bottom: 2vh;
-    margin-top: 2vh;
+    margin: 3vh;
     box-shadow: 5px 5px 15px green;
 }
 
@@ -68,8 +68,8 @@ html *{
 }
 
 .images {
-    width: 380px;
-    height: 260px;
+    width: 400px;
+    height: 300px;
     margin: 10 auto;
     flex-basis: 100%;
     border-radius: 20px;
