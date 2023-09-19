@@ -1,6 +1,6 @@
 body {
     background-image: url(https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289f32c1971ae8118019a70_blue-gradient.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 html *{
@@ -38,6 +38,8 @@ html *{
     background-color: darkslategray;
     margin-top: 5vh;
     margin-bottom: 1vh;
+    margin-left: 10vw;
+    width: 80%;
     padding-top: 2vh;
     border-radius: 5vh;
     display: flex;
@@ -45,7 +47,7 @@ html *{
     flex-direction: row;
     flex-basis: 33%;
     justify-content: space-around;
-    align-items: center;
+    align-content: center;
 }
 
 .image-box {
