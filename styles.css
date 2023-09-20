@@ -26,7 +26,6 @@ html *{
     border-bottom-right-radius: 20px;
 }
 
-
 .subheader {
     font-size: 1.5rem;
     color: black;
@@ -38,8 +37,8 @@ html *{
     background-color: darkslategray;
     margin-top: 5vh;
     margin-bottom: 1vh;
-    margin-left: 10vw;
-    width: 80%;
+    margin-left: 5vw;
+    width: 90%;
     padding-top: 2vh;
     border-radius: 5vh;
     display: flex;
@@ -64,9 +63,14 @@ html *{
 .description {
     font-size: 1.25rem;
     color: aliceblue;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+    -webkit-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+    -moz-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+    -o-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
 }
 
 .images {
@@ -75,4 +79,19 @@ html *{
     margin: 10 auto;
     flex-basis: 100%;
     border-radius: 20px;
+    transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+    -webkit-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+    -moz-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+    -o-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+}
+
+.image-box:hover .images {
+    transform: scale(150%);
+}
+
+.image-box:hover .description {
+    transform: scale(150%);
+    transform: translateY(-10vh);
+    color: rgb(189, 21, 21);
+    background-color: black;
 }
