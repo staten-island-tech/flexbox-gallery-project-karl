@@ -33,6 +33,10 @@ html *{
     margin: 5vh;
 }
 
+.ribbon {
+    
+}
+
 .gallery {
     background-color: darkslategray;
     margin-top: 5vh;
@@ -83,6 +87,7 @@ html *{
     -webkit-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
     -moz-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
     -o-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+    filter: grayscale(0);
 }
 
 .image-box:hover .images {
