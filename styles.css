@@ -51,8 +51,8 @@ a:hover {
     }
     100% { 
     left: 100%;
-    background-color: blueviolet;
-    color: rgb(255, 165, 0)
+    background-color: none;
+    color: none;
     }
 }
 
@@ -84,9 +84,6 @@ a:hover {
     transition: transform 0.5s;
 }
 
-.ribbon:hover {
-    background-color: rgb(142, 157, 142);
-}
 .ribbon:hover .ribbon-Selector {
     transform: scale(115%);
 }
@@ -146,7 +143,7 @@ a:hover {
     flex-basis: 100%;
     border-radius: 20px;
     transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
-    outline-offset: 0.3rem;
+    outline-offset: 0.2rem;
     -webkit-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
     -moz-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
     -o-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
@@ -154,7 +151,6 @@ a:hover {
 
 .image-box:hover .images {
     transform: scale(130%);
-    outline: 4px rgb(147, 161, 18) solid;
 }
 
 .image-box:hover .description {
