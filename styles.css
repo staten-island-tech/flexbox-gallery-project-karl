@@ -93,7 +93,6 @@ a:hover {
 .ribbon:hover .ribbon-description{
     transform: translate(20vh);
 }
-
 .gallery {
     background-color: hwb(180 18% 69%);
     margin-top: 5vh;
@@ -121,6 +120,7 @@ a:hover {
     box-shadow: 5px 5px 15px green;
 }
 
+
 .description {
     font-size: 1.25rem;
     color: aliceblue;
@@ -136,8 +136,8 @@ a:hover {
 }
 
 .images {
-    width: 400px;
-    height: 300px;
+    width: 20vw;
+    height: 32vh;
     margin: 10 auto;
     flex-basis: 100%;
     border-radius: 20px;
@@ -146,6 +146,35 @@ a:hover {
     -webkit-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
     -moz-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
     -o-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
+}
+
+@media screen and (max-width: 1600px) {
+    .ribbon {
+        width: 100%;
+    }
+    .ribbon-description {
+        width: 30vw;
+    }
+    .ribbon-Selector {
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .ribbon {
+        width: 100%;
+    }
+    .ribbon-description {
+        width: 30vw;
+    }
+    .ribbon-Selector {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gallery {
+        width: 100%;
+    }
 }
 
 .image-box:hover .images {
