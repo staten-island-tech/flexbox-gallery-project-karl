@@ -57,6 +57,7 @@ a:hover {
 
 .ribbon {
     border: 4px rgb(0, 0, 255) solid;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -94,7 +95,7 @@ a:hover {
     transform: translate(20vh);
 }
 .gallery {
-    background-color: hwb(180 18% 69%);
+    background-color: rgb(46, 79, 79);
     margin-top: 5vh;
     margin-bottom: 1vh;
     margin-left: 0vw;
@@ -120,7 +121,6 @@ a:hover {
     box-shadow: 5px 5px 15px green;
 }
 
-
 .description {
     font-size: 1.25rem;
     color: aliceblue;
@@ -135,9 +135,11 @@ a:hover {
     -o-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
 }
 
+
+
 .images {
-    width: 20vw;
-    height: 32vh;
+    width: 400px;
+    height: 300px;
     margin: 10 auto;
     flex-basis: 100%;
     border-radius: 20px;
@@ -148,32 +150,30 @@ a:hover {
     -o-transition: transform 1s cubic-bezier(0.82, -0.49, 0.61, 2.67);
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
     .ribbon {
         width: 100%;
     }
-    .ribbon-description {
-        width: 30vw;
+    .image-box {
+        flex-basis: 50%;
     }
-    .ribbon-Selector {
-        width: 30vw;
+    .images {
+        width: 100%;
     }
 }
+
 @media screen and (max-width: 900px) {
     .ribbon {
         width: 100%;
     }
     .ribbon-description {
-        width: 30vw;
+        align-self: flex-start;
     }
-    .ribbon-Selector {
-        width: 30vw;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .gallery {
+    .images {
         width: 100%;
+    }
+    .image-box {
+        flex-basis: 90%;
     }
 }
 
